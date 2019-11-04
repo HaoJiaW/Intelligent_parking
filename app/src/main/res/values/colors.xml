@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6d97fd</color>
+    <color name="al_colorPrimary">#226d97fd</color>
+    <color name="colorPrimaryDark">#6d97fd</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimary_green">#00bf70</color>
+    <color name="white">#ffffff</color>
+    <color name="blue">#00aef0</color>
+    <color name="black">#000000</color>
+    <color name="navigationBarColor">#e8e8e8</color>
+    <color name="hint_color">#999999</color>
+    <color name="device_line">#bcbcbc</color>
+    <color name="button_color">#6EB3FF</color>
+    <color name="alpha_colorPrimary">#326d97fd</color>
+    <color name="text_colorPrimary">#9ca8be</color>
+
+    <color name="colorPrimaryOld">#0275D8</color>
+    <color name="editTacIcTable">#d7d7d7</color>
+    <color name="cell_item_ci_tac_color">#333333</color>
+    <color name="cx_con_pwr_level1">#ff5900</color>
+    <color name="cx_con_pwr_level2">#ffd13b</color>
+    <color name="cx_con_pwr_level3">#cedc39</color>
+    <color name="cx_con_pwr_level4">#00cc36</color>
+    <color name="cx_con_pwr_level5">#009933</color>
+    <color name="cx_snr_text_color">#666666</color>
+    <color name="cx_sms_state_text_color">#999999</color>
+    <color name="start_loc_donut_progress">#FF9933</color>
+    <color name="alpha_sixty_five_white">#a6FFFFFF</color>
+    <color name="alpha_seventy_five_grey">#c0E4E4E4</color>
+    <color name="alpha_hundred_grey">#E4E4E4</color>
+    <color name="alpha_seventy_five_blue">#2e7cc0f2</color>
+    <color name="alpha_thirty_grey">#4dd7d7d7</color>
+    <color name="alpha_fifty_grey">#7fF2F2F2</color>
+    <color name="app_right_text_color">#999999</color>
+    <color name="app_left_text_color">#333333</color>
+    <color name="circle_progress_unfinished_color">#dddddd</color>
+    <color name="alpha_round_edges_zero">#00FF6600</color>
+    <color name="round_edges_color">#FF6600</color>
+    <color name="dotted_line_color">#F2F2F2</color>
+    <color name="start_loc_color">#FF0000</color>
+    <color name="type_t_color">#FF6600</color>
+    <color name="type_l_color">#66CC33</color>
+    <color name="type_p_color">#1B4B84</color>
+    <color name="type_h_color">#0066CC</color>
+    <color name="type_bg_color">#0066CC33</color>
+    <color name="title_warn_color">#D32F2F</color>
+    <color name="vip_color">#FFBC8E32</color>
+    <color name="e">#eeeeee</color>
+
+</resources>

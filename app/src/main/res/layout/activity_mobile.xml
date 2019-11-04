@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MobileActivity"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/ftpFileName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:hint="输入上传文件的名称"/>
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:layout_margin="20dp">-->
+
+    <!--</TextView>-->
+
+    <LinearLayout
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_centerInParent="true">
+
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="50dp" />
+
+    </LinearLayout>
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv1"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:layout_margin="20dp">-->
+
+    <!--</TextView>-->
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="btn(正常)"
+        android:layout_above="@+id/btnWithMobile"
+        />
+
+
+    <Button
+        android:id="@+id/btnWithMobile"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="btnWithMobile"
+        android:layout_above="@+id/renameBtn"
+        />
+
+    <Button
+        android:id="@+id/renameBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="renameBtn"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>

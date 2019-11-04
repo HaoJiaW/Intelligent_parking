@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/view_group"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.CanvasTestActivity">
+
+
+    <com.iigo.library.PowerView
+        android:id="@+id/pv"
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        app:bgColor="@color/e"
+        app:orientation="vertical"
+        app:powerColor="@color/colorPrimary_green"
+        app:powerProgress="80"
+        android:layout_centerHorizontal="true"/>
+
+
+<com.github.jiawei.intelligent_parking_system.view.MyView
+    android:visibility="gone"
+    android:id="@+id/my_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"/>
+
+    <Button
+        android:id="@+id/invalidate_btn"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="不充电"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"/>
+
+    <Button
+        android:id="@+id/clip_btn"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="充电"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="180dp"/>
+
+    <com.github.jiawei.intelligent_parking_system.view.CustomImageView
+        android:id="@+id/custom_imageview"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/full_reduce"/>
+
+</RelativeLayout>

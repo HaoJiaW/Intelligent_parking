@@ -1,0 +1,12 @@
+apply plugin: 'java-library'
+apply plugin: 'application'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.alibaba:fastjson:1.2.55'
+}
+
+sourceCompatibility = "7"
+targetCompatibility = "7"
+
+

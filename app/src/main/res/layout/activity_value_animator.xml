@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".animate.ValueAnimatorActivity">
+
+    <ImageView
+        android:id="@+id/shareView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@mipmap/ic_launcher"
+        android:transitionName="shareView"/>
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/titleBar"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/colorPrimary"
+        android:text="Explode测试标题"
+        android:textSize="20sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/valueTextView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:background="@color/colorAccent"
+        android:clickable="true"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="18sp"/>
+
+
+    <Button
+        android:id="@+id/beginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="begin"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"/>
+
+</RelativeLayout>
